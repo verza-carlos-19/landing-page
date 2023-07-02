@@ -118,3 +118,6 @@ main {
   padding: 4rem 13rem;
   text-align: center;
 }
+.descripcion p {
+  font-weight: 600;
+}
