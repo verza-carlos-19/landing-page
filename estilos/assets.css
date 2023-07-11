@@ -1,3 +1,4 @@
+/*----------------------------mediaquery para laptops----------------------------------*/
 @media (max-width: 992px) {
   body {
     padding: 0;
@@ -6,6 +7,7 @@
     border-radius: 0;
   }
 }
+/*----------------------------mediaquery para tablets----------------------------------*/
 @media (max-width: 768px) {
   header {
     width: 100%;
@@ -47,6 +49,7 @@
     width: 100%;
   }
 }
+/*----------------------------mediaquery para smartphones----------------------------------*/
 @media (max-width: 576px) {
   header {
     position: fixed;
