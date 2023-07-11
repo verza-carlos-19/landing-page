@@ -1,0 +1,141 @@
+@media (max-width: 992px) {
+  body {
+    padding: 0;
+  }
+  nav {
+    border-radius: 0;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  .btn-hero {
+    width: 100%;
+  }
+  .seccion {
+    padding: 3rem 2rem;
+  }
+  .ventajas {
+    width: 100%;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+  .descripcion {
+    padding: 3rem 5rem;
+  }
+  .contactar {
+    position: absolute;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    padding: 1rem 0.5rem;
+    right: 50px;
+    margin-top: 80px;
+    border-radius: 10px;
+  }
+  .map {
+    width: 100%;
+    padding: 0;
+  }
+  .contact {
+    width: 100%;
+    padding: 0;
+  }
+  .contacto {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  header {
+    position: fixed;
+    z-index: 3;
+  }
+  .nab {
+    position: absolute;
+    flex-direction: column;
+    height: calc(100vh - 84px);
+    width: 100%;
+    top: 84px;
+    left: 0;
+    background-color: var(--Fondo);
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    display: none;
+  }
+  nav label {
+    display: block;
+  }
+  #toggle-menu:checked ~ .nab {
+    display: flex;
+  }
+  main {
+    margin-top: 84px;
+  }
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem 1rem;
+  }
+  .hero > div {
+    width: 100%;
+  }
+  .hero-info {
+    text-align: center;
+  }
+  .btn-hero {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .btn {
+    width: 85%;
+  }
+  .hero-img {
+    justify-content: center;
+  }
+  .hero-img img {
+    width: 85%;
+  }
+  .descripcion {
+    width: 90%;
+    padding: 3rem 0;
+  }
+  .ventajas {
+    padding: 3rem 0;
+  }
+  .ventajas > h2,
+  .ventajas > p {
+    padding: 0 1.8rem;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .card {
+    width: 85%;
+    gap: 25px;
+  }
+  .contactar {
+    position: relative;
+    width: 100%;
+    right: 0;
+    margin: 0;
+    background-color: black;
+    border-radius: 0;
+    color: white;
+    gap: 45px;
+    padding: 2rem 0.5rem;
+  }
+  .contacto {
+    max-width: 400px;
+  }
+  .contact {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

@@ -3,13 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./estilos/style.css" />
+    <link rel="stylesheet" href="estilos/assets.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script
+      src="https://kit.fontawesome.com/60edc5996c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Landing-page-verza</title>
   </head>
   <body>
     <header>
       <nav>
         <img id="logo" src="./imgs/logo.png" alt="logo.png" />
+        <label for="toggle-menu"> <i class="fa-solid fa-bars"></i></label>
+
+        <input type="checkbox" name="" id="toggle-menu" />
         <ul class="nab">
           <li class="nab_item"><a href="#">INICIO</a></li>
           <li class="nab_item"><a href="#">SERVICIOS</a></li>
@@ -43,6 +55,83 @@
           Destacamos por nuestro trabajo en equipo y resolucion de problemas.
         </p>
       </section>
+      <section class="seccion ventajas">
+        <!--<div class="ventajas-txt">-->
+        <h2>nuestras ventajas</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nulla
+          dolores tenetur facere sapiente. Ea nostrum natus obcaecati dolorem
+          debitis?
+        </p>
+        <!--</div>-->
+        <div class="cards">
+          <div class="card">
+            <span class="material-symbols-outlined"> terminal </span>
+            <h2>PROLIJIDAD</h2>
+            <p>
+              Nos caracterizamos por nuestra <b>prolijidad</b> y claridad a la
+              hora de escribir y documentar codigo, asi tambien por tener
+              ofertas claras y consizas para ofrecer.
+            </p>
+          </div>
+          <div class="card">
+            <span class="material-symbols-outlined"> deployed_code </span>
+            <h2>COMPETITIVIDAD</h2>
+            <p>
+              Demostramos una <b>competitividad</b> nata en cada unoo de
+              nuestros proyectos, buscando siempre la manera de crecer y
+              mejorar.
+            </p>
+          </div>
+          <div class="card">
+            <span class="material-symbols-outlined"> group </span>
+            <h2>COMPAÑERISMO</h2>
+            <p>
+              El <b>compañerismo</b>
+              es una de nuestras caracteristicas mas importantes ya que asegura
+              nuestra efectividad y calidad en cada proyecto que realizamos.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <section class="seccion contact">
+        <div class="contactar">
+          <div class="contacto">
+            <h2>CONTACTANOS</h2>
+            <form action="">
+              <input type="text" placeholder="NOMBRE" />
+              <input type="tel" name="" id="" placeholder="TEL." />
+              <input type="email" name="" id="" placeholder="EMAIL@" />
+              <input
+                type="text"
+                name=""
+                id="mensaje"
+                placeholder="MENSAJE..."
+              />
+              <button><strong>ENVIAR</strong></button>
+            </form>
+          </div>
+          <div class="redes">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d53368.24401457263!2d-66.3093248!3d-33.2791808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1688602547849!5m2!1ses!2sar"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <section class="copy">
+        &copy; 2023 - Desarrollado por <b>VERZADEV</b>
+      </section>
+    </footer>
   </body>
 </html>
